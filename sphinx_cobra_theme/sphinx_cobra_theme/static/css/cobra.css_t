@@ -6657,3 +6657,21 @@ blockquote {
     float: right;
 }
 
+/* restore bullets and numbers on simple Docutils lists */
+.wy-nav-content .rst-content ul.simple {
+  list-style: disc outside;
+  margin-left: 1.5em;
+  padding-left: 0;
+}
+
+.wy-nav-content .rst-content ol.simple {
+  list-style: decimal outside;
+  margin-left: 1.5em;
+  padding-left: 0;
+}
+
+/* optional spacing for list items */
+.wy-nav-content .rst-content ul.simple > li,
+.wy-nav-content .rst-content ol.simple > li {
+  margin: 0.25em 0;
+}
