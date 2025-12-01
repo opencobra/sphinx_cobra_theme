@@ -6780,7 +6780,7 @@ blockquote {
 .wy-menu-vertical .caption-text {
     text-transform: none !important;      /* Remove ALL CAPS */
     font-weight: 600;                     /* Semi-bold (cleaner than full bold) */
-    font-size: 0.95em;                    /* Slightly smaller than headings */
+    font-size: 1.0em;                    /* Slightly smaller than headings */
     color: #1f3d5c;                       /* Deep blue-grey (scientific/navy tone) */
     padding: 4px 8px 4px 12px;            /* Indent text slightly */
 
